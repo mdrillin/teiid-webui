@@ -57,10 +57,6 @@
            </div>
          </div>
          
-         <% if (request.getParameter("gwt.codesvr") != null) { %>
-           <input type="hidden" name="gwt.codesvr" value="<%= org.owasp.encoder.Encode.forHtmlAttribute(request.getParameter("gwt.codesvr")) %>"/>
-         <% } %>
-         
          <div class="form-group">
            <div class="col-xs-8 col-sm-offset-2 col-sm-6 col-md-offset-2 col-md-6">
          <%--
