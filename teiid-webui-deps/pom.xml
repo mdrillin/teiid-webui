@@ -75,6 +75,13 @@
         <scope>import</scope>
       </dependency>
 
+      <!-- Errai dependency for CDI 1.0 Compat -->
+      <dependency>
+        <groupId>org.jboss.errai</groupId>
+        <artifactId>errai-weld-integration</artifactId>
+        <version>3.0.4.Final</version>
+      </dependency>
+
       <!-- GWT and GWT Extensions -->
       <dependency>
         <groupId>com.google.gwt</groupId>
