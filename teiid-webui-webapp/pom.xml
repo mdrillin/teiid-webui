@@ -77,6 +77,11 @@
 
     <dependency>
       <groupId>org.uberfire</groupId>
+      <artifactId>uberfire-server</artifactId>
+    </dependency>
+
+    <dependency>
+      <groupId>org.uberfire</groupId>
       <artifactId>uberfire-js</artifactId>
       <scope>provided</scope>
     </dependency>
@@ -116,7 +121,7 @@
       <artifactId>uberfire-workbench-client-views-patternfly</artifactId>
       <scope>provided</scope>
     </dependency>
-
+    
     <!-- Teiid -->
     <dependency>
       <groupId>org.jboss.teiid</groupId>
@@ -384,6 +389,7 @@
             <compileSourcesArtifact>org.uberfire:uberfire-workbench-client-backend</compileSourcesArtifact>
             <compileSourcesArtifact>org.uberfire:uberfire-workbench-client-views-patternfly</compileSourcesArtifact>
             <compileSourcesArtifact>org.uberfire:uberfire-backend-api</compileSourcesArtifact>
+            <compileSourcesArtifact>org.uberfire:uberfire-server</compileSourcesArtifact>
           </compileSourcesArtifacts>
           <!-- do not insert line breaks in this string; it breaks Windows compatibility -->
           <extraJvmArgs>-Xmx1g -Xms756m -XX:MaxPermSize=256m -XX:CompileThreshold=1000 -Derrai.jboss.home=${errai.jboss.home} "-Derrai.jboss.javaopts=-XX:MaxPermSize=256m -Dorg.jboss.weld.nonPortableMode=true" -Derrai.dev.context=${project.artifactId} -Derrai.jboss.javaagent.path=${settings.localRepository}/org/jboss/errai/errai-client-local-class-hider/${version.org.jboss.errai}/errai-client-local-class-hider-${version.org.jboss.errai}.jar=classPattern=${project.groupId}.client/.*</extraJvmArgs>
