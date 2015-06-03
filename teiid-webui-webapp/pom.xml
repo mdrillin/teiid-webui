@@ -84,7 +84,17 @@
       <groupId>org.uberfire</groupId>
       <artifactId>uberfire-backend-server</artifactId>
     </dependency>
+    
+    <dependency>
+      <groupId>org.uberfire</groupId>
+      <artifactId>uberfire-backend-server-security</artifactId>
+    </dependency>
 
+    <dependency>
+      <groupId>org.uberfire</groupId>
+      <artifactId>uberfire-backend-cdi</artifactId>
+    </dependency>
+    
     <dependency>
       <groupId>org.uberfire</groupId>
       <artifactId>uberfire-js</artifactId>
@@ -395,6 +405,8 @@
             <compileSourcesArtifact>org.uberfire:uberfire-workbench-client-views-patternfly</compileSourcesArtifact>
             <compileSourcesArtifact>org.uberfire:uberfire-backend-api</compileSourcesArtifact>
             <compileSourcesArtifact>org.uberfire:uberfire-backend-server</compileSourcesArtifact>
+            <compileSourcesArtifact>org.uberfire:uberfire-backend-cdi</compileSourcesArtifact>
+            <compileSourcesArtifact>org.uberfire:uberfire-backend-server-security</compileSourcesArtifact>
             <compileSourcesArtifact>org.uberfire:uberfire-server</compileSourcesArtifact>
           </compileSourcesArtifacts>
           <!-- do not insert line breaks in this string; it breaks Windows compatibility -->
