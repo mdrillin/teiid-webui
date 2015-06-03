@@ -87,12 +87,12 @@
     
     <dependency>
       <groupId>org.uberfire</groupId>
-      <artifactId>uberfire-backend-server-security</artifactId>
+      <artifactId>uberfire-backend-cdi</artifactId>
     </dependency>
-
+    
     <dependency>
       <groupId>org.uberfire</groupId>
-      <artifactId>uberfire-backend-cdi</artifactId>
+      <artifactId>uberfire-nio2-fs</artifactId>
     </dependency>
     
     <dependency>
@@ -394,6 +394,7 @@
             <!-- UberFire -->
             <compileSourcesArtifact>org.uberfire:uberfire-commons</compileSourcesArtifact>
             <compileSourcesArtifact>org.uberfire:uberfire-nio2-model</compileSourcesArtifact>
+            <compileSourcesArtifact>org.uberfire:uberfire-nio2-fs</compileSourcesArtifact>
             <compileSourcesArtifact>org.uberfire:uberfire-io</compileSourcesArtifact>
             <compileSourcesArtifact>org.uberfire:uberfire-api</compileSourcesArtifact>
             <compileSourcesArtifact>org.uberfire:uberfire-js</compileSourcesArtifact>
@@ -406,7 +407,6 @@
             <compileSourcesArtifact>org.uberfire:uberfire-backend-api</compileSourcesArtifact>
             <compileSourcesArtifact>org.uberfire:uberfire-backend-server</compileSourcesArtifact>
             <compileSourcesArtifact>org.uberfire:uberfire-backend-cdi</compileSourcesArtifact>
-            <compileSourcesArtifact>org.uberfire:uberfire-backend-server-security</compileSourcesArtifact>
             <compileSourcesArtifact>org.uberfire:uberfire-server</compileSourcesArtifact>
           </compileSourcesArtifacts>
           <!-- do not insert line breaks in this string; it breaks Windows compatibility -->
